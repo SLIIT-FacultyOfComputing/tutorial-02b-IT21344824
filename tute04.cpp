@@ -27,3 +27,32 @@ int main() {
   std::cout << std::endl;
   return 0;
 }
+
+Factorial(int no)
+{
+  int  tot , x = 1 ;
+  
+  for(int i=0 ; i = no ; i++ )
+    {
+     x = no - 1 ;
+     tot = x * x ;
+    }
+  return tot;
+}
+
+nCr(int n, int r)
+{
+  int tot , tot2 ;
+  
+  for(int i=0 ; i = r ; i++ )
+    {
+     x = r - 1 ;
+     tot = x * x ;
+
+      y = (n-r) - 1 ;
+      tot2 = y * y ;
+    }
+  
+  
+  return Factorial(no)/tot * tot2 ; 
+}
